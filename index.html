@@ -3,32 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>VITEBSKA — люксова косметика макіяж і сяйво</title>
-  <meta name="description" content="Люксова декоративна косметика VITEBSKA з Одеси. Делікатні формули з клінічним ефектом, відтінки для різних типів шкіри.">
-
-  <!-- Fonts & Styles -->
+  <title>VITEBSKA — люксова косметика, макіяж і сяйво</title>
+  <meta name="description" content="Люксова декоративна косметика VITEBSKA з Одеси. Делікатні формули з клінічним ефектом, відтінки для природної краси.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=3">
-
-  <!-- Google Analytics (замени GA_MEASUREMENT_ID на свой) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'GA_MEASUREMENT_ID');
-  </script>
-
-  <!-- Microsoft Clarity (замени CLARITY_ID на свой, если нужно) -->
-  <script>
-    (function(c,l,a,r,i,t,y){
-      c[a]=c[a]||function(){ (c[a].q=c[a].q||[]).push(arguments); };
-      t=l.createElement(r); t.async=1; t.src="https://www.clarity.ms/tag/"+i;
-      y=l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "CLARITY_ID");
-  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 
 <body>
@@ -47,43 +27,84 @@
     <!-- Hero -->
     <section class="hero">
       <div>
-        <h1>VITEBSKA делікатний макіяж і сяйво</h1>
+        <h1>VITEBSKA — делікатний макіяж і сяйво</h1>
         <p>Ніжні текстури без різких ароматів. Відтінки для природної краси і мʼякого фокусу.</p>
-
         <div class="kpis">
           <span class="badge">Клінічно підтверджено</span>
-          <span class="badge">Vegan та Cruelty free</span>
+          <span class="badge">Vegan та Cruelty-free</span>
           <span class="badge">Made in Ukraine</span>
         </div>
-
         <div style="height:12px"></div>
-        <a class="btn" href="#makeup" data-cta data-label="hero_a">Обрати свій ритуал</a>
+        <a class="btn" href="#makeup" data-cta data-label="hero_choose">Обрати свій ритуал</a>
         <a class="btn ghost" href="#science">Дізнатися про склад</a>
-        <p class="note">Одеса Україна</p>
+        <p class="note">Одеса, Україна</p>
       </div>
 
       <div class="card">
-        <img src="assets/hero_blush_sparkle.jpg" alt="Рожевий бʼюті натюрморт VITEBSKA">
+        <img src="assets/hero_blush_sparkle.jpg" alt="Рожево-золотий бʼюті натюрморт VITEBSKA" loading="eager" decoding="async">
       </div>
     </section>
 
-    <!-- Makeup (единственная корректная секция) -->
+    <!-- MAKEUP (ЄДИНА секція! не дублювати) -->
     <section id="makeup" class="section">
       <h2 class="h2">Колекція макіяжу</h2>
 
-      <!-- Оставь твою старую сетку карточек здесь.
-           Ниже просто безопасный контейнер. Если карточек нет — можно удалить этот div. -->
       <div class="grid cols-3">
-        <!-- ТВОИ СТАРЫЕ КАРТОЧКИ ДОЛЖНЫ БЫТЬ ЗДЕСЬ -->
-        <!-- пример карточки:
-        <div class="card product">
-          <img src="assets/foundation_bottle.jpg" alt="Silk Veil тональна основа">
-          <div><strong>Silk Veil тональна основа</strong></div>
+        <!-- Тональна основа -->
+        <div class="card product reveal">
+          <img src="assets/foundation_bottle.jpg" alt="Тональна основа VITEBSKA Air Veil" loading="lazy">
+          <h3>Air Veil тональна основа</h3>
+          <p class="note">30 мл • сатиновий фініш • шовкова вуаль</p>
           <div class="price">1490 грн</div>
-          <div class="note">Легка основа з ефектом свічення і мʼякого фокусу…</div>
-          <a href="details.html" class="details-btn">Деталі</a>
         </div>
-        -->
+
+        <!-- Консилер -->
+        <div class="card product reveal">
+          <img src="assets/concealer_wand.jpg" alt="Консилер VITEBSKA Light Touch" loading="lazy">
+          <h3>Light Touch консилер</h3>
+          <p class="note">8 мл • підсвічує • не сушить</p>
+          <div class="price">890 грн</div>
+        </div>
+
+        <!-- Олівець для губ -->
+        <div class="card product reveal">
+          <img src="assets/lip_pencil.jpg" alt="Олівець для губ VITEBSKA Sculpt Lip" loading="lazy">
+          <h3>Sculpt Lip олівець для губ</h3>
+          <p class="note">Nude Rose • мʼяка стійка текстура</p>
+          <div class="price">520 грн</div>
+        </div>
+
+        <!-- Олівець для очей -->
+        <div class="card product reveal">
+          <img src="assets/eye_pencil.jpg" alt="Олівець для очей VITEBSKA Soft Define" loading="lazy">
+          <h3>Soft Define олівець для очей</h3>
+          <p class="note">Deep Espresso • сатиновий фініш</p>
+          <div class="price">520 грн</div>
+        </div>
+
+        <!-- Блиск для губ -->
+        <div class="card product reveal">
+          <img src="assets/lip_gloss.jpg" alt="Блиск для губ VITEBSKA Mirror Lip" loading="lazy">
+          <h3>Mirror Lip блиск</h3>
+          <p class="note">6 мл • дзеркальне сяйво • не липкий</p>
+          <div class="price">690 грн</div>
+        </div>
+
+        <!-- Хайлайтер -->
+        <div class="card product reveal">
+          <img src="assets/highlighter_compact.jpg" alt="Хайлайтер VITEBSKA Celestial Glow" loading="lazy">
+          <h3>Celestial Glow хайлайтер</h3>
+          <p class="note">9 г • шампанське сяйво • тиснення зірок</p>
+          <div class="price">1190 грн</div>
+        </div>
+
+        <!-- Румʼяна-стік -->
+        <div class="card product reveal">
+          <img src="assets/hero_blush_sparkle.jpg" alt="Кремові румʼяна-стік VITEBSKA Cream Blush" loading="lazy">
+          <h3>Cream Blush румʼяна-стік</h3>
+          <p class="note">7 г • soft rose glow • тануча текстура</p>
+          <div class="price">990 грн</div>
+        </div>
       </div>
     </section>
 
@@ -91,16 +112,16 @@
     <section id="science" class="section">
       <h2 class="h2">Формули ніжності</h2>
       <div class="grid cols-2">
-        <div class="card">
-          <p>Ми створюємо текстури з мʼяким фокусом та світловідбивальними пігментами. Основа не обтяжує шкіру, консилер не підкреслює зморшки, блиск дарує обʼєм без липкості.</p>
+        <div class="card reveal">
+          <p>Ми створюємо текстури з мʼяким фокусом і світловідбивальними пігментами. Основа не обтяжує шкіру, консилер не підкреслює зморшки, блиск дарує обʼєм без липкості.</p>
           <ul>
             <li>Без різких ароматів та без спирту</li>
             <li>Мікроперли для делікатного сяйва</li>
             <li>Перевірено дерматологами</li>
           </ul>
         </div>
-        <div class="card">
-          <blockquote>“Нам подобається природна краса. Формули працюють з текстурою шкіри, а не маскують її.”</blockquote>
+        <div class="card reveal">
+          <blockquote>“Формули підкреслюють природну красу — працюють разом із текстурою шкіри, а не маскують її.”</blockquote>
           <p class="note">VITEBSKA лабораторія, Одеса</p>
         </div>
       </div>
@@ -110,12 +131,12 @@
     <section id="reviews" class="section">
       <h2 class="h2">Відгуки</h2>
       <div class="grid cols-3">
-        <div class="card"><p>“Тональна як вуаль. На фото шкіра рівна без маски.” — Іра</p></div>
-        <div class="card"><p>“Консилер не сушить і не збирається. Світлі відтінки гарні для підсвічування.” — Марта</p></div>
-        <div class="card"><p>“Блиск супер комфортний. Відтінок Peach Milk став улюбленим.” — Софія</p></div>
-        <div class="card"><p>“Олівець для очей мʼякий і добре тримається. Коричневий виглядає дуже природно.” — Катя</p></div>
-        <div class="card"><p>“Хайлайтер делікатний без великих блискіток. Колір Champagne пасує світлій шкірі.” — Олена</p></div>
-        <div class="card"><p>“Олівець для губ не сушить. Відтінок Rose ідеально під нʼюдові помади.” — Дарина</p></div>
+        <div class="card reveal"><p>“Тональна як вуаль. Фото без маски.” — Іра</p></div>
+        <div class="card reveal"><p>“Консилер не сушить і не збирається.” — Марта</p></div>
+        <div class="card reveal"><p>“Блиск комфортний. Peach Milk — фаворит.” — Софія</p></div>
+        <div class="card reveal"><p>“Олівець для очей мʼякий і тримається.” — Катя</p></div>
+        <div class="card reveal"><p>“Хайлайтер делікатний, без великих блискіток.” — Олена</p></div>
+        <div class="card reveal"><p>“Олівець для губ не сушить, ідеальний nude.” — Дарина</p></div>
       </div>
     </section>
 
@@ -123,10 +144,10 @@
     <section id="faq" class="section">
       <h2 class="h2">Питання</h2>
       <div class="grid cols-2">
-        <div class="faq-item"><strong>Оплата</strong><br>Банківські картки Visa, Mastercard, Apple Pay.</div>
-        <div class="faq-item"><strong>Доставка</strong><br>Україна 1–4 дні, ЄС 3–7 днів. Відправка з Одеси.</div>
-        <div class="faq-item"><strong>Повернення</strong><br>Нова запечатана продукція протягом 30 днів.</div>
-        <div class="faq-item"><strong>Порада по відтінках</strong><br>Світлий підтягнутий тон шкіри добре поєднується з Porcelain / Fair Light.</div>
+        <div class="faq-item reveal"><strong>Оплата</strong><br>Visa / Mastercard / Apple Pay.</div>
+        <div class="faq-item reveal"><strong>Доставка</strong><br>Україна 1–4 дні, ЄС 3–7 днів. Відправка з Одеси.</div>
+        <div class="faq-item reveal"><strong>Повернення</strong><br>Нова запечатана продукція протягом 30 днів.</div>
+        <div class="faq-item reveal"><strong>Відтінки</strong><br>Світлі тону — Porcelain / Fair Light.</div>
       </div>
     </section>
   </main>
@@ -136,7 +157,7 @@
     <div class="grid cols-3">
       <div>
         <div class="brand">VITEBSKA</div>
-        <p class="note">Одеса Україна</p>
+        <p class="note">Одеса, Україна</p>
       </div>
       <div>
         <strong>Контакти</strong><br>
@@ -151,7 +172,6 @@
     <p style="margin-top:20px">© 2025 VITEBSKA</p>
   </footer>
 
-  <!-- Скрипты -->
-  <script src="script.js"></script>
+  <script src="script.js?v=2"></script>
 </body>
 </html>

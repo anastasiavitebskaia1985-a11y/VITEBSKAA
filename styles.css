@@ -49,18 +49,4 @@ blockquote{margin:0;padding:0 0 0 16px;border-left:2px solid var(--line);color:v
 @media (max-width:640px){
   .grid.cols-3{grid-template-columns:1fr}
   .hero h1{font-size:38px}
-} /* --- VITEBSKA details --- */
-.details-btn, .v-btn {
-  display:inline-block; padding:.55rem .9rem; border-radius:999px;
-  background:#f1b7c7; color:#512c37; font-weight:600; border:none; cursor:pointer;
-  transition:.2s; text-decoration:none;
 }
-.details-btn:hover, .v-btn:hover { transform:translateY(-1px); box-shadow:0 6px 14px rgba(224,140,160,.35); }
-
-.v-details {
-  margin-top:.6rem; padding:.75rem 1rem; background:#fff7f8;
-  border:1px solid #f1e1e5; border-radius:14px; color:#51323b; line-height:1.45;
-  display:none;
-}
-.v-details ul{ margin:.4rem 0 0 1.1rem; }
-.v-details--open{ display:block; }
